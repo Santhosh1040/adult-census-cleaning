@@ -17,7 +17,7 @@ def main():
 
     
     print("\nRaw Dataset Profile")
-    print("=" * 40)
+  
     profile_data(df)
 
     # Data Cleaning Pipeline
@@ -28,7 +28,6 @@ def main():
 
     # Validate cleaned dataset
     print("\nCleaned Dataset Validation")
-    print("=" * 40)
     validate_dataset(df)
 
     

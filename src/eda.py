@@ -47,7 +47,7 @@ def income_distribution(df):
     plt.savefig("reports/figures/income_distribution.png", dpi=300)
     plt.close()
 
-    print("✓ Income distribution generated")
+    print("Income distribution generated.")
 
 
 def age_distribution(df):
@@ -66,7 +66,7 @@ def age_distribution(df):
     plt.savefig("reports/figures/age_distribution.png", dpi=300)
     plt.close()
 
-    print("✓ Age distribution generated")
+    print("Age distribution generated.")
 
 
 def education_distribution(df):
@@ -87,7 +87,7 @@ def education_distribution(df):
     plt.savefig("reports/figures/education_distribution.png", dpi=300)
     plt.close()
 
-    print("✓ Education distribution generated")
+    print("Education distribution generated.")
 
 
 def occupation_distribution(df):
@@ -108,7 +108,7 @@ def occupation_distribution(df):
     plt.savefig("reports/figures/occupation_distribution.png", dpi=300)
     plt.close()
 
-    print("✓ Occupation distribution generated")
+    print("Occupation distribution generated.")
 
 
 def correlation_heatmap(df):
@@ -141,7 +141,7 @@ def correlation_heatmap(df):
     plt.savefig("reports/figures/correlation_heatmap.png", dpi=300)
     plt.close()
 
-    print("✓ Correlation heatmap generated")
+    print("Correlation heatmap generated.")
 
 
 def perform_eda(df):
@@ -162,4 +162,4 @@ def perform_eda(df):
     occupation_distribution(df)
     correlation_heatmap(df)
 
-    print("\n✓ EDA completed successfully.")
+    print("\nEDA completed successfully.")
