@@ -110,7 +110,7 @@ The generated figures are saved in the `reports/figures/` directory.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Santhosh1040/adult-census-cleaning.git
 cd adult-census-cleaning
 ```
 
